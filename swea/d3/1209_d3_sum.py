@@ -11,8 +11,6 @@ for test_case in range(1, 11):
         right_down += arr[i][i]
         left_up += arr[i][99-i]
 
-    max_sum = max(right_down, left_up)
-
     for i in range(0,100):
         row_sum = 0
         col_sum = 0
@@ -20,6 +18,6 @@ for test_case in range(1, 11):
             row_sum += arr[i][j]
             col_sum += arr[j][i]
         
-        max_sum = max(max_sum, row_sum, col_sum)
+        max_sum = max(right_down, left_up, row_sum, col_sum)
 
     print(f"#{test_case} {max_sum}")
