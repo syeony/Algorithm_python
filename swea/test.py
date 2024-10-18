@@ -54,3 +54,18 @@
 # print(x,y,queue)
 # x,y=queue.popleft()
 # print(x,y,queue)
+str = '0123'
+arr = [1,2,3]
+arr.insert(0,0)
+print(len(str), arr)
+# arr = [1,2,5,6,6,5,7,3,3]
+# i = 1  
+# while i < len(arr):
+#     if arr[i] == arr[i-1]:
+#         del arr[i]
+#         del arr[i-1]
+#         i -= 1 
+#     else:
+#         i += 1 
+
+# print(arr)
