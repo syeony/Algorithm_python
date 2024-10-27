@@ -54,10 +54,10 @@
 # print(x,y,queue)
 # x,y=queue.popleft()
 # print(x,y,queue)
-str = '0123'
-arr = [1,2,3]
-arr.insert(0,0)
-print(len(str), arr)
+# str = '0123'
+# arr = [1,2,3]
+# arr.insert(0,0)
+# print(len(str), arr)
 # arr = [1,2,5,6,6,5,7,3,3]
 # i = 1  
 # while i < len(arr):
@@ -69,3 +69,25 @@ print(len(str), arr)
 #         i += 1 
 
 # print(arr)
+
+# num=11223344
+# sorted_num = sorted(str(num))
+# if list(str(num)) == sorted_num:
+#     print(num)
+# else:
+#     print(num, sorted_num)
+
+num = 12345
+
+arr = list(map(int,str(num)))
+print(arr)
+
+def swap():
+    temp = arr[0]
+    arr[0] = arr[4]
+    arr[4] = temp
+
+swap()
+print(arr)
+
+print(int(''.join(map(str,arr))))
