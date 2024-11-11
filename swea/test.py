@@ -77,17 +77,58 @@
 # else:
 #     print(num, sorted_num)
 
-num = 12345
+# num = 12345
 
-arr = list(map(int,str(num)))
-print(arr)
+# arr = list(map(int,str(num)))
+# print(arr)
 
-def swap():
-    temp = arr[0]
-    arr[0] = arr[4]
-    arr[4] = temp
+# def swap():
+#     temp = arr[0]
+#     arr[0] = arr[4]
+#     arr[4] = temp
 
-swap()
-print(arr)
+# swap()
+# print(arr)
 
-print(int(''.join(map(str,arr))))
+# print(int(''.join(map(str,arr))))
+
+# arr = [1,2,3]
+# num = int(str(arr[0])+str(arr[1]))
+# print(num)
+# print(sorted(arr))
+# n=5
+# arr=[]
+# while len(arr) < n:
+#     # 공백 또는 줄바꿈으로 입력된 숫자를 추가
+#     arr.extend(map(int, input().split()))
+# print(arr)
+
+# arr=[1,2,3]
+# two = ''
+
+# two += str(arr[0])
+# two += str(arr[1])
+
+# print(int(two))
+
+# arr = [1,2]
+# arr[0] = str(arr[0]).replace('1','ONE')
+# print(arr)
+
+
+# q = [2,4]
+# num = q.pop(0) #선입선출
+# print(num)
+
+# arr=['a','b','c','d']
+# print(arr[0:2])
+# print(arr[-2:])
+
+# n = 3.5
+# print(round(n))
+
+n = 'aa'
+if '*' not in n:
+    print('True')
+else:
+    print('False')
