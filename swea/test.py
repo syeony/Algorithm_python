@@ -127,8 +127,23 @@
 # n = 3.5
 # print(round(n))
 
-n = 'aa'
-if '*' not in n:
-    print('True')
-else:
-    print('False')
+# n = 'aa'
+# if '*' not in n:
+#     print('True')
+# else:
+#     print('False')
+
+# arr = [[1,1,2,3],[1,2,3,4]]
+# sum = 0
+# for i in range(len(arr)):
+#     sum += arr[i].count(1)
+
+# print(sum)
+
+arr=[8,4,1,9]
+arr.sort()
+print(arr)
+for i in range(0,len(arr),2):
+    arr[i]=0
+
+print(arr)
