@@ -140,10 +140,29 @@
 
 # print(sum)
 
-arr=[8,4,1,9]
-arr.sort()
-print(arr)
-for i in range(0,len(arr),2):
-    arr[i]=0
+# arr=[8,4,1,9]
+# arr.sort()
+# print(arr)
+# for i in range(0,len(arr),2):
+#     arr[i]=0
 
-print(arr)
+# print(arr)
+
+# def name(word):
+#     if not word[0].isupper():
+#         return False
+    
+#     for i in word[1:]:
+#         if not i.islower():
+#             return False
+#     return True
+
+# word = 'Tsd543'
+
+# if name(word):
+#     print(1)
+# else:
+#     print(2)
+
+arr = ['#','.','#']
+print(arr.count('#'))
