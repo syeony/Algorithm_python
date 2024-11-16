@@ -164,5 +164,28 @@
 # else:
 #     print(2)
 
-arr = ['#','.','#']
-print(arr.count('#'))
+# arr = ['#','.','#']
+# print(arr.count('#'))
+
+# arr = [[1,1,2],[2,3]]
+# li = list(set(arr[0]))
+# print(len(li))
+
+# import math
+# print(math.ceil(3.14))
+
+# hi = 'hi'.replace('h','0')
+# print(hi)
+
+# num = 'hi'
+# print(num.isdigit()) # True
+
+# arr = [1,2,3]
+# print(arr.index(2))
+# del arr[1]
+# print(arr)
+import math
+L = math.sqrt((0-0)**2+(100-0)**2)
+
+cost = 1.0 * (L**2)
+print(round(cost))
