@@ -1,2 +1,4 @@
 # Algorithm
-SUSC 알고리즘 스터디 (python)
+- python 사용
+- [백준](https://www.acmicpc.net/)
+- [SWEA](https://swexpertacademy.com/main/code/problem/problemList.do)
