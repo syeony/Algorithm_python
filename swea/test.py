@@ -184,8 +184,15 @@
 # print(arr.index(2))
 # del arr[1]
 # print(arr)
-import math
-L = math.sqrt((0-0)**2+(100-0)**2)
 
-cost = 1.0 * (L**2)
-print(round(cost))
+# import math
+# L = math.sqrt((0-0)**2+(100-0)**2)
+
+# cost = 1.0 * (L**2)
+# print(round(cost))
+
+# arr = [1,2,3]
+# del arr[2]
+# print(arr)
+
+
