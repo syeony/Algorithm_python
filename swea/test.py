@@ -195,4 +195,18 @@
 # del arr[2]
 # print(arr)
 
+arr = [[] for _ in range(3)]
+arr[1].append([2,3])
+arr[1].append([1,2])
+arr2=[]
 
+first = arr[1][0]+arr[1][1]
+second = arr[1][1]+arr[1][0]
+
+if (first or second) in arr2:
+    pass
+else:
+    arr2.append(first)
+    arr2.append(second)
+
+print(arr,arr2)
