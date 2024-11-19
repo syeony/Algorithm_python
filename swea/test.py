@@ -195,3 +195,7 @@
 # del arr[2]
 # print(arr)
 
+print(7//-2, 7%-2)
+
+result='1010'
+print(result[::-1])
