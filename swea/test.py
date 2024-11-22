@@ -195,7 +195,19 @@
 # del arr[2]
 # print(arr)
 
-print(7//-2, 7%-2)
+# print(7//-2, 7%-2)
 
-result='1010'
-print(result[::-1])
+# result='1010'
+# print(result[::-1])
+
+# a = 'D 2'
+# print(a[2])
+
+# b=[[1,2]]
+# x,y=b.pop()
+# print(x,y)
+
+a=['a']*7
+
+a[1] = 'b'
+print(a)
