@@ -207,7 +207,15 @@
 # x,y=b.pop()
 # print(x,y)
 
-a=['a']*7
+# a=['a']*7
 
-a[1] = 'b'
-print(a)
+# a[1] = 'b'
+# print(a)
+
+# arr=["chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"]
+# arr = arr[0:5]
+# print(arr)
+
+arr = ['she is pretty']
+arr2=list(arr[0].split())
+print(arr2[0])
