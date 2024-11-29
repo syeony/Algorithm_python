@@ -8,7 +8,7 @@ def solution(genres, plays):
     
     #genres=plays리스트 딕셔너리 하나 만들어서
     dic={}
-    for genre,play in zip(genres,plays):
+    for genre,play in zip(genres,plays): 
         if genre not in dic:
             dic[genre] = []
         dic[genre].append(play)
