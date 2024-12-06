@@ -216,6 +216,10 @@
 # arr = arr[0:5]
 # print(arr)
 
-arr = ['she is pretty']
-arr2=list(arr[0].split())
-print(arr2[0])
+# arr = ['she is pretty']
+# arr2=list(arr[0].split())
+# print(arr2[0])
+
+edges = [[0,1],[1,2],[1,4],[0,8],[8,7],[9,10],[9,11],[4,3],[6,5],[4,6],[8,9]]
+for a,b in edges:
+    print(a,b)

@@ -11,7 +11,7 @@ def solution(n,a,b):
     c=max(a,b)
     
     while True:
-        c = c/2
+        c = c/2 #7-3.5-1.xx-0.xx = 3
         answer += 1
         if c<=1:
             break
