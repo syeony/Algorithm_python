@@ -224,3 +224,6 @@
 # for a,b in edges:
 #     print(a,b)
 
+arr = [1,2,3]
+arr2 = arr[1:3]
+print(arr2)
