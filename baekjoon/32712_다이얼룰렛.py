@@ -1,3 +1,5 @@
+# 실패
+
 import sys
 input = sys.stdin.readline
 
@@ -8,7 +10,7 @@ if a>b:
     max_arr = max(arr[:b])
 else:
     max_arr = max(arr)
-    
+
 sum = 0
 
 for i in arr:

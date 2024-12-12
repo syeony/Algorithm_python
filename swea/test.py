@@ -224,6 +224,10 @@
 # for a,b in edges:
 #     print(a,b)
 
-arr = [1,2,3]
-arr2 = arr[1:3]
-print(arr2)
+# arr = [1,2,3]
+# arr2 = arr[1:3]
+# print(arr2)
+
+arr = [1,2,3,4,5]
+for i in range(len(arr)-1,0,-1):
+    print(arr[i])
