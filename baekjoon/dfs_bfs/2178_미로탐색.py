@@ -24,8 +24,10 @@ def bfs(x,y):
             if arr[nx][ny] == 1:
                 arr[nx][ny] = arr[x][y] + 1
                 q.append((nx,ny))
+
     for i in range(N):
         print(arr[i])
+        
     return arr[N-1][M-1]
 
 
