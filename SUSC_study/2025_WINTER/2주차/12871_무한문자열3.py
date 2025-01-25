@@ -1,6 +1,7 @@
 # 반례찾음!!!
 # abab랑 ababab
 
+
 s=input()
 t=input()
 
